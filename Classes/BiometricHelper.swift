@@ -30,7 +30,7 @@ enum AuthenticationPolicy: Int {
 typealias BiometricAuthenticationCompletion = (_ status:BiometricAuthenticationStatus,_ title: String,_ message: String) -> Void
 var authenticationPolicy: LAPolicy = LAPolicy.deviceOwnerAuthenticationWithBiometrics
 
-class BiometricHelper {
+public class BiometricHelper {
     
     func setAuthenticationPolicy(policy: AuthenticationPolicy) {
         switch policy {
