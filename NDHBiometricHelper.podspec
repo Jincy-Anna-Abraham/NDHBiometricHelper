@@ -25,13 +25,13 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'NDH' => 'abraham-jincyanna@nissanmotor.com' }
-  s.source           = { :git => 'https://github.com/Jincy-Anna-Abraham/NDHBiometricHelper.git', :tag => s.version }
+  s.source           = { :git => 'https://github.com/Jincy-Anna-Abraham/NDHBiometricHelper.git', :tag => s.version, :commit => "fc27f34ac256b9d1acefa1161ecdbaa4a9a3a6f5" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-  s.exclude_files = 'Classes/*.plist'
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'Classes/**/*'
-  
+  s.exclude_files = 'Classes/*.plist'
+
   # s.resource_bundles = {
   #   'NDHBiometricHelper' => ['NDHBiometricHelper/Assets/*.png']
   # }
