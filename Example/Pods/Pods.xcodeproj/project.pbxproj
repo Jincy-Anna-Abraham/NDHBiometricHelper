@@ -22,7 +22,7 @@
 		63EA4B9CBBAB30A69C2D73693019FDC5 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		6B71ACB6D56B970D0B2AD8EE2B79D96F /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */; };
 		6EC17B6986CC7F9EBDF0521AE86F371B /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */; };
-		7154C9B721F5BB830043F584 /* BiometricHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7154C9B621F5BB830043F584 /* BiometricHelper.swift */; };
+		7154C9B721F5BB830043F584 /* NDHBiometricHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7154C9B621F5BB830043F584 /* NDHBiometricHelper.swift */; };
 		73247510D7AD93E5FDBA474B353BF919 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		75E9F580F622CCFE92695C1AE0DA6AF6 /* Pods-NDHBiometricHelper_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B9BA405CA66171A56029B47C0CD9FA9 /* Pods-NDHBiometricHelper_Example-dummy.m */; };
 		7B19A63F35032B7E63488010A099EF18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DA36E1CA4C3D87F6E85F737FA483C3 /* Foundation.framework */; };
@@ -92,7 +92,7 @@
 		690D945850D4565F36333F8DF3C95EF8 /* Pods-NDHBiometricHelper_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NDHBiometricHelper_Tests.modulemap"; sourceTree = "<group>"; };
 		6C3FE2F38518A84F903F45C7CE015094 /* Pods-NDHBiometricHelper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NDHBiometricHelper_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6EEFDB4948AAD083FBDBFEFC8A4ECB2F /* Pods-NDHBiometricHelper_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NDHBiometricHelper_Tests-umbrella.h"; sourceTree = "<group>"; };
-		7154C9B621F5BB830043F584 /* BiometricHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BiometricHelper.swift; sourceTree = "<group>"; };
+		7154C9B621F5BB830043F584 /* NDHBiometricHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NDHBiometricHelper.swift; sourceTree = "<group>"; };
 		79D0342012C396D0BFD81E853EEBF6FE /* Pods-NDHBiometricHelper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NDHBiometricHelper_Example.release.xcconfig"; sourceTree = "<group>"; };
 		7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 		7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
@@ -248,7 +248,7 @@
 		7154C9B821F5CB150043F584 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				7154C9B621F5BB830043F584 /* BiometricHelper.swift */,
+				7154C9B621F5BB830043F584 /* NDHBiometricHelper.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -583,7 +583,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBBEE17E8545D83A398F04B0824C0EC2 /* NDHBiometricHelper-dummy.m in Sources */,
-				7154C9B721F5BB830043F584 /* BiometricHelper.swift in Sources */,
+				7154C9B721F5BB830043F584 /* NDHBiometricHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
