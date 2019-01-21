@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		18A44C813DBB4412C50C141E /* Pods-NDHBiometricHelper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NDHBiometricHelper_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NDHBiometricHelper_Tests/Pods-NDHBiometricHelper_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		1E5BC1D0F78D50DC7B0D897F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1E5BC1D0F78D50DC7B0D897F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		249D7D537EC49E3E73C50707 /* Pods-NDHBiometricHelper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NDHBiometricHelper_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-NDHBiometricHelper_Example/Pods-NDHBiometricHelper_Example.release.xcconfig"; sourceTree = "<group>"; };
 		32360E9D39EE8385B3FAFA90 /* Pods_NDHBiometricHelper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NDHBiometricHelper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		605DB5C1F94DEB0599667E02 /* Pods-NDHBiometricHelper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NDHBiometricHelper_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NDHBiometricHelper_Example/Pods-NDHBiometricHelper_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -44,8 +44,8 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		9C8B10435A273167C2B0549C /* Pods_NDHBiometricHelper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NDHBiometricHelper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A919ADEEEABF81C69A0FD964 /* NDHBiometricHelper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = NDHBiometricHelper.podspec; path = ../NDHBiometricHelper.podspec; sourceTree = "<group>"; };
-		C26FFE5CDCE499E88AD0DCD2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A919ADEEEABF81C69A0FD964 /* NDHBiometricHelper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NDHBiometricHelper.podspec; path = ../NDHBiometricHelper.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C26FFE5CDCE499E88AD0DCD2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CA014FDC6C9EB397E60023C0 /* Pods-NDHBiometricHelper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NDHBiometricHelper_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NDHBiometricHelper_Tests/Pods-NDHBiometricHelper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 

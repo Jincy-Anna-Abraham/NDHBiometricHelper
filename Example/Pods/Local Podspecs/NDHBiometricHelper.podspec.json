@@ -1,0 +1,22 @@
+{
+  "name": "NDHBiometricHelper",
+  "version": "0.1.0",
+  "summary": "A short description of NDHBiometricHelper.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/NDH/NDHBiometricHelper",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "NDH": "abraham-jincyanna@nissanmotor.com"
+  },
+  "source": {
+    "git": "https://github.com/NDH/NDHBiometricHelper.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "NDHBiometricHelper/Classes/**/*"
+}

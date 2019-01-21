@@ -1,0 +1,6 @@
+framework module NDHBiometricHelper {
+  umbrella header "NDHBiometricHelper-umbrella.h"
+
+  export *
+  module * { export * }
+}

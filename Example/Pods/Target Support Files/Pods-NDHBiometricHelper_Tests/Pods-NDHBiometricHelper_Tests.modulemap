@@ -1,0 +1,6 @@
+framework module Pods_NDHBiometricHelper_Tests {
+  umbrella header "Pods-NDHBiometricHelper_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
