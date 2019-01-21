@@ -27,7 +27,7 @@ TODO: Add long description of the pod here.
   s.author           = { 'NDH' => 'abraham-jincyanna@nissanmotor.com' }
   s.source           = { :git => 'https://github.com/Jincy-Anna-Abraham/NDHBiometricHelper.git', :tag => s.version }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.exclude_files = 'Classes/*.plist'
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'Classes/**/*'
