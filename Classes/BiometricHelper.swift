@@ -86,6 +86,7 @@ class BiometricHelper {
                     }
                 } else {
                     // Fallback on earlier versions
+                    completion(BiometricAuthenticationStatus.UnknownError, "Unknown error", err.localizedDescription)
                 }
             }
         }

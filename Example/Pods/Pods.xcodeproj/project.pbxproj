@@ -245,6 +245,14 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
+		7154C9B821F5CB150043F584 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7154C9B621F5BB830043F584 /* BiometricHelper.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		77E6A3533BFFC5453A29188F8955E61A /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -289,7 +297,7 @@
 		8D88C55DC15C3F2D7C5ECC295798087B /* NDHBiometricHelper */ = {
 			isa = PBXGroup;
 			children = (
-				7154C9B621F5BB830043F584 /* BiometricHelper.swift */,
+				7154C9B821F5CB150043F584 /* Classes */,
 				4EBBF434643D2BAFCB01777AB127A869 /* Pod */,
 				D9BC26EF27728BC895193EA0B12F3CB3 /* Support Files */,
 			);
